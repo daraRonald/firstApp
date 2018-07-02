@@ -74,11 +74,11 @@ webpackEmptyAsyncContext.id = 164;
 
 var map = {
 	"../pages/contact/contact.module": [
-		680,
+		679,
 		20
 	],
 	"../pages/list/bathroom/bathroom.module": [
-		679,
+		680,
 		17
 	],
 	"../pages/list/bathroom/bathroom1Detail/bathroom1Detail.module": [
@@ -230,8 +230,8 @@ var AppModule = (function () {
                 __WEBPACK_IMPORTED_MODULE_3__angular_http__["b" /* HttpModule */],
                 __WEBPACK_IMPORTED_MODULE_2_ionic_angular__["c" /* IonicModule */].forRoot(__WEBPACK_IMPORTED_MODULE_4__app_component__["a" /* MyApp */], {}, {
                     links: [
-                        { loadChildren: '../pages/list/bathroom/bathroom.module#BathroomPageModule', name: 'BathroomPage', segment: 'bathroom', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/contact/contact.module#ContactPageModule', name: 'ContactPage', segment: 'contact', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/list/bathroom/bathroom.module#BathroomPageModule', name: 'BathroomPage', segment: 'bathroom', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/list/bathroom/bathroom1Detail/bathroom1Detail.module#bathroom1DetailPageModule', name: 'bathroom1DetailPage', segment: 'bathroom1Detail', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/list/faucet/faucet.module#FaucetPageModule', name: 'FaucetPage', segment: 'faucet', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/list/faucet/faucet1Detail/faucet1Detail.module#faucet1DetailPageModule', name: 'faucet1DetailPage', segment: 'faucet1Detail', priority: 'low', defaultHistory: [] },
@@ -370,7 +370,7 @@ var MyApp = (function () {
         __metadata("design:type", __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* Nav */])
     ], MyApp.prototype, "nav", void 0);
     MyApp = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({template:/*ion-inline-start:"/home/poeeiphyu/Desktop/MyLifeCH-Ver3/Maxten/Maxten/src/app/app.html"*/'<div class="{{global.state[\'theme\']}}">\n	<ion-menu [content]="content" id="menu-avatar">\n		<ion-header color="light">\n			<ion-toolbar color="light">\n				<ion-title>Menu</ion-title>\n			</ion-toolbar>\n		</ion-header>\n		\n		<ion-content>\n			<div class="menu-header backI">\n				\n				<br><br><br><br>\n				\n				\n				<h2 style="margin-bottom:-20px;color:#ffffff;font-size:25px;">Maxten</h2>\n				\n				\n			</div>\n			\n			<ion-list no-lines>\n				\n				<ion-item-divider (click)="home()" menuClose>\n					<ion-icon name="home" item-left style="color:#ffffff;"></ion-icon>\n					Home\n				</ion-item-divider>\n				\n				<ion-item-divider (click)="contact()" menuClose>\n					<ion-icon name="contact" item-left style="color:#ffffff;"></ion-icon>\n					Contact Us \n				</ion-item-divider>\n				\n				<ion-item-divider (click)="setting()" menuClose>\n					<ion-icon name="settings" item-left style="color:#ffffff;"></ion-icon>\n					Settings\n				</ion-item-divider>\n				\n			</ion-list>\n		</ion-content>\n	</ion-menu>\n	\n	<!-- Disable swipe-to-go-back because it\'s poor UX to combine STGB with side menus -->\n	<ion-nav [root]="rootPage" #content swipeBackEnabled="false"></ion-nav>\n</div>\n'/*ion-inline-end:"/home/poeeiphyu/Desktop/MyLifeCH-Ver3/Maxten/Maxten/src/app/app.html"*/
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({template:/*ion-inline-start:"/home/poeeiphyu/Desktop/MyLifeCH-Ver3/Maxten/Maxten/src/app/app.html"*/'<div class="{{global.state[\'theme\']}}">\n	<ion-menu [content]="content" id="menu-avatar">\n		<ion-header color="light">\n			<ion-toolbar color="light">\n				<ion-title>Menu</ion-title>\n			</ion-toolbar>\n		</ion-header>\n		\n		<ion-content>\n			<div class="menu-header backI">\n				\n				<!--\n				<br><br><br><br>\n				\n				\n				<h2 style="margin-bottom:-20px;color:#ffffff;font-size:25px;">Maxten</h2>\n				-->\n				\n				<div class="container">\n					<img src="https://www.polomaxten.com/wp-content/uploads/2017/08/bathroom.jpg" alt="Notebook" style="width:100%;height : 140px;">\n						<div class="content">\n							<br><br><br><br><br>\n							<h1></h1>\n							<img src="https://www.polomaxten.com/wp-content/uploads/2017/08/polo.png" alt="Notebook" style="width:50%;height : 20%;">\n						</div>\n				</div>\n				\n			</div>\n			\n			<ion-list no-lines>\n				\n				<ion-item-divider (click)="home()" menuClose>\n					<ion-icon name="home" item-left style="color:#ffffff;"></ion-icon>\n					Home\n				</ion-item-divider>\n				\n				<ion-item-divider (click)="contact()" menuClose>\n					<ion-icon name="contact" item-left style="color:#ffffff;"></ion-icon>\n					Contact Us \n				</ion-item-divider>\n				\n				<ion-item-divider (click)="setting()" menuClose>\n					<ion-icon name="settings" item-left style="color:#ffffff;"></ion-icon>\n					Settings\n				</ion-item-divider>\n				\n			</ion-list>\n		</ion-content>\n	</ion-menu>\n	\n	<!-- Disable swipe-to-go-back because it\'s poor UX to combine STGB with side menus -->\n	<ion-nav [root]="rootPage" #content swipeBackEnabled="false"></ion-nav>\n</div>\n'/*ion-inline-end:"/home/poeeiphyu/Desktop/MyLifeCH-Ver3/Maxten/Maxten/src/app/app.html"*/
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* Platform */], __WEBPACK_IMPORTED_MODULE_2__app_global__["a" /* AppState */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* MenuController */], __WEBPACK_IMPORTED_MODULE_5_ionic_cache__["b" /* CacheService */], __WEBPACK_IMPORTED_MODULE_3__ionic_native_status_bar__["a" /* StatusBar */], __WEBPACK_IMPORTED_MODULE_4__ionic_native_splash_screen__["a" /* SplashScreen */]])
     ], MyApp);

@@ -16,12 +16,22 @@
 @import '../theme/light.theme';
 @import '../theme/animations';
 
-.backI{
-		background-image: url("../assets/imgs/maxten.png");
-		padding: 25px;
-		background-repeat: no-repeat;
-		background-size: 100% 150px;
-	}
+.container {
+    position: relative;
+    max-width: 800px;
+}
+
+.container .content {
+    position: absolute;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.3); /* Black background with transparency */
+    color: #106bd3;
+    width: 100%;
+    height : 100%;
+    padding-left : 15px;
+    padding-bottom : 35px;
+    
+}
 	
 .align-center {
   text-align: center;
