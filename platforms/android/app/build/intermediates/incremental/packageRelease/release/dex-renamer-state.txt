@@ -1,0 +1,4 @@
+#Fri Jun 29 10:13:45 MMT 2018
+base.0=/home/poeeiphyu/Desktop/MyLifeCH/Maxten/Maxten/platforms/android/app/build/intermediates/transforms/dex/release/0
+renamed.0=classes.dex
+file.0=/home/poeeiphyu/Desktop/MyLifeCH/Maxten/Maxten/platforms/android/app/build/intermediates/transforms/dex/release/0/classes.dex

@@ -1,0 +1,43 @@
+<div class="{{global.state['theme']}}">
+	<ion-menu [content]="content" id="menu-avatar">
+		<ion-header color="light">
+			<ion-toolbar color="light">
+				<ion-title>Menu</ion-title>
+			</ion-toolbar>
+		</ion-header>
+		
+		<ion-content>
+			<div class="menu-header backI">
+				
+				<br><br><br><br>
+				
+				
+				<h2 style="margin-bottom:-20px;color:#ffffff;font-size:25px;">Maxten</h2>
+				
+				
+			</div>
+			
+			<ion-list no-lines>
+				
+				<ion-item-divider (click)="home()" menuClose>
+					<ion-icon name="home" item-left style="color:#ffffff;"></ion-icon>
+					Home
+				</ion-item-divider>
+				
+				<ion-item-divider (click)="contact()" menuClose>
+					<ion-icon name="contact" item-left style="color:#ffffff;"></ion-icon>
+					Contact Us 
+				</ion-item-divider>
+				
+				<ion-item-divider (click)="setting()" menuClose>
+					<ion-icon name="settings" item-left style="color:#ffffff;"></ion-icon>
+					Settings
+				</ion-item-divider>
+				
+			</ion-list>
+		</ion-content>
+	</ion-menu>
+	
+	<!-- Disable swipe-to-go-back because it's poor UX to combine STGB with side menus -->
+	<ion-nav [root]="rootPage" #content swipeBackEnabled="false"></ion-nav>
+</div>
